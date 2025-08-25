@@ -1,19 +1,20 @@
-import React from 'react'
-import bg from '../assets/bg.jpg'
+import React from "react";
 
 const Nav = () => {
   return (
-    <div className='z-10000 '>
-        <nav className='flex justify-between mx-[200px] bg-transparent  rounded-full'>
-            <img className='w-[100px] h-[70px] ml-10 mt-2' src={bg} alt="" />
-            <ul className='flex gap-[100px] bg-transparent my-8 mr-10 text-[25px] font-[Manrope] font-medium text-white'>
-                <li className='cursor-pointer'>Home</li>
-                <li className='cursor-pointer'>Cars</li>
-                <li className='cursor-pointer'>Contacts</li>
-            </ul>
-        </nav>
+    <div className="z-[10000]">
+      <nav className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-4 bg-transparent">
+        <h1 className="font-kregan text-5xl md:text-7xl text-white mb-4 md:mb-0 md:text-black">
+          Car <span className="text-amber-600">Rent</span>
+        </h1>
+        <ul className="flex flex-col md:flex-row gap-6 md:gap-12 text-lg md:text-xl font-kregan font-medium text-black md:text-white">
+          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer">Cars</li>
+          <li className="cursor-pointer">Contacts</li>
+        </ul>
+      </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

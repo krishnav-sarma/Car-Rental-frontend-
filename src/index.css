@@ -1,1 +1,11 @@
+@font-face {
+    font-family: Kregan;
+    src: url(./assets/Kregan.otf);
+}
+
 @import "tailwindcss";
+
+
+@theme{
+    --font-kregan: Kregan
+}
