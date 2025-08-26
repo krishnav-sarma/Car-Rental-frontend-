@@ -8,7 +8,7 @@ const Nav = () => {
           Car <span className="text-amber-600">Rent</span>
         </h1>
         <ul className="flex flex-col md:flex-row gap-6 md:gap-12 text-lg md:text-xl font-kregan font-medium text-black md:text-white">
-          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer text-[#FAF9F6]">Home</li>
           <li className="cursor-pointer">Cars</li>
           <li className="cursor-pointer">Contacts</li>
         </ul>
